@@ -8,19 +8,16 @@
     font-family: Outfit;
 }
 
-/* styles.css or global CSS file */
-.scrollbar-hide {
-    -ms-overflow-style: none;
-    /* IE and Edge */
-    scrollbar-width: none;
-    /* Firefox */
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-    display: none;
-    /* Chrome, Safari, and Opera */
-}
-
 .active hr {
     @apply block
+}
+
+@media (max-width:740px) {
+    .active p {
+        @apply text-white bg-blue-500
+    }
+}
+
+::-webkit-scrollbar {
+    @apply hidden
 }
