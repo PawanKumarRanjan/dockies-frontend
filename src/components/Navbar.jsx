@@ -101,7 +101,7 @@ const Navbar = () => {
         {/* go to admin-doctor panel */}
         {!token && (
           <NavLink
-            to={'https://dockies-admin-ka03.onrender.com'}
+            to={'https://dockies-admin.vercel.app/'}
             target='_blank'
           >
             <button className='px-3 py-2 w-fit border border-gray-200 bg-gray-100 text-black rounded flex items-center gap-1'>
@@ -245,7 +245,7 @@ const Navbar = () => {
               {/* go to Admin/doctor panel login */}
               {!token && (
                 <NavLink
-                  to={'https://dockies-admin-ka03.onrender.com'}
+                  to={'https://dockies-admin.vercel.app/'}
                   target='_blank'
                 >
                   <button className='mb-6 min-w-[124px] h-10 bg-primary text-white font-normal rounded relative'>
